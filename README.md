@@ -10,6 +10,7 @@
 
 </center>
 
+<img src="docs/screenshot.png"/>
 
 ## Setup & Deployment
 
