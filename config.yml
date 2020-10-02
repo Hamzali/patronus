@@ -1,0 +1,16 @@
+env: "dev"
+port: 8009
+clusters:
+  iugo:
+    hosts:
+      - "165.22.80.67"
+      - "161.35.69.125"
+    port: "8008"
+    ssl: false
+  demo:
+    hosts:
+      - "patroni1"
+      - "patroni2"
+      - "patroni3"
+    port: "8008"
+    ssl: false
